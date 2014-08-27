@@ -14,3 +14,12 @@ C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\VoidTracker\bin\Debu
 C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\VoidTracker\obj\Debug\VoidTracker.TrackerInterface.resources
 C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\VoidTracker\obj\Debug\VoidTracker.Properties.Resources.resources
 C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\VoidTracker\obj\Debug\VoidTracker.csproj.GenerateResource.Cache
+C:\Users\Adminstrator\Desktop\Void-Tracker\bin\Debug\VoidTracker.exe.config
+C:\Users\Adminstrator\Desktop\Void-Tracker\obj\Debug\VoidTracker.exe
+C:\Users\Adminstrator\Desktop\Void-Tracker\obj\Debug\VoidTracker.pdb
+C:\Users\Adminstrator\Desktop\Void-Tracker\bin\Debug\VoidTracker.exe
+C:\Users\Adminstrator\Desktop\Void-Tracker\bin\Debug\VoidTracker.pdb
+C:\Users\Adminstrator\Desktop\Void-Tracker\obj\Debug\VoidTracker.csprojResolveAssemblyReference.cache
+C:\Users\Adminstrator\Desktop\Void-Tracker\obj\Debug\VoidTracker.TrackerInterface.resources
+C:\Users\Adminstrator\Desktop\Void-Tracker\obj\Debug\VoidTracker.Properties.Resources.resources
+C:\Users\Adminstrator\Desktop\Void-Tracker\obj\Debug\VoidTracker.csproj.GenerateResource.Cache

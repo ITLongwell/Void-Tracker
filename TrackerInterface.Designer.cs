@@ -49,7 +49,7 @@
             // TextDisplay
             // 
             this.TextDisplay.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.TextDisplay.Location = new System.Drawing.Point(12, 10);
+            this.TextDisplay.Location = new System.Drawing.Point(12, 9);
             this.TextDisplay.Name = "TextDisplay";
             this.TextDisplay.Size = new System.Drawing.Size(360, 112);
             this.TextDisplay.TabIndex = 0;
@@ -94,9 +94,9 @@
             // StopButton
             // 
             this.StopButton.BackColor = System.Drawing.Color.DarkGray;
-            this.StopButton.Location = new System.Drawing.Point(297, 229);
+            this.StopButton.Location = new System.Drawing.Point(297, 224);
             this.StopButton.Name = "StopButton";
-            this.StopButton.Size = new System.Drawing.Size(75, 59);
+            this.StopButton.Size = new System.Drawing.Size(75, 60);
             this.StopButton.TabIndex = 5;
             this.StopButton.Text = "Stop";
             this.StopButton.UseVisualStyleBackColor = false;
@@ -105,7 +105,7 @@
             // StartButton
             // 
             this.StartButton.BackColor = System.Drawing.Color.DarkGray;
-            this.StartButton.Location = new System.Drawing.Point(15, 229);
+            this.StartButton.Location = new System.Drawing.Point(12, 225);
             this.StartButton.Name = "StartButton";
             this.StartButton.Size = new System.Drawing.Size(75, 59);
             this.StartButton.TabIndex = 6;
@@ -183,7 +183,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(385, 300);
+            this.ClientSize = new System.Drawing.Size(384, 296);
             this.Controls.Add(this.checkBox);
             this.Controls.Add(this.Time);
             this.Controls.Add(this.TotalTimeLabel);

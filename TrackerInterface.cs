@@ -319,7 +319,10 @@ namespace VoidTracker
                 TextDisplay.SelectionStart = TextDisplay.Text.Length;
                 TextDisplay.ScrollToCaret();
 
-                Time.Text = totalTime.ToString("hh' : 'mm' : 'ss");       
+                Time.Text = totalTime.ToString("hh' : 'mm' : 'ss");
+
+                MovementTimer.Ticker.Stop();
+                MovementTimer.Ticker.Dispose();
             }
         }
         #endregion
@@ -379,6 +382,12 @@ namespace VoidTracker
         {
             static Timer timer;
             static TrackerInterface tracker;
+
+            public static Timer Ticker
+            {
+                get { return timer; }
+                set { timer = value; }
+            }
 
             static int Minutes(int i)
             {
