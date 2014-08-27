@@ -1,0 +1,17 @@
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\bin\Debug\ShiftKeeper.exe.config
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\bin\Debug\ShiftKeeper.exe
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\bin\Debug\ShiftKeeper.pdb
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftKeeper.KeeperInterface.resources
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftKeeper.Properties.Resources.resources
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftKeeper.csproj.GenerateResource.Cache
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftKeeper.exe
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftKeeper.pdb
+C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\ShiftKeeper\bin\Debug\ShiftKeeper.exe.config
+C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\ShiftKeeper\obj\Debug\ShiftKeeper.exe
+C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\ShiftKeeper\obj\Debug\ShiftKeeper.pdb
+C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\ShiftKeeper\bin\Debug\ShiftKeeper.exe
+C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\ShiftKeeper\bin\Debug\ShiftKeeper.pdb
+C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\ShiftKeeper\obj\Debug\ShiftKeeper.csprojResolveAssemblyReference.cache
+C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\ShiftKeeper\obj\Debug\ShiftKeeper.KeeperInterface.resources
+C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\ShiftKeeper\obj\Debug\ShiftKeeper.Properties.Resources.resources
+C:\Users\Adminstrator\Documents\Visual Studio 2012\Projects\ShiftKeeper\obj\Debug\ShiftKeeper.csproj.GenerateResource.Cache

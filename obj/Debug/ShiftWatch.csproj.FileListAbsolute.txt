@@ -1,0 +1,10 @@
+c:\users\adminstrator\documents\visual studio 2012\Projects\ShiftWatch\bin\Debug\ShiftWatch.exe.config
+c:\users\adminstrator\documents\visual studio 2012\Projects\ShiftWatch\bin\Debug\ShiftWatch.exe
+c:\users\adminstrator\documents\visual studio 2012\Projects\ShiftWatch\bin\Debug\ShiftWatch.pdb
+c:\users\adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftWatch.WatchInterface.resources
+c:\users\adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftWatch.Properties.Resources.resources
+c:\users\adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftWatch.csproj.GenerateResource.Cache
+c:\users\adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftWatch.exe
+c:\users\adminstrator\documents\visual studio 2012\Projects\ShiftWatch\obj\Debug\ShiftWatch.pdb
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\bin\Debug\Gatekeeper.exe.config
+C:\Users\Adminstrator\documents\visual studio 2012\Projects\ShiftWatch\bin\Debug\ShiftKeeper.exe.config
