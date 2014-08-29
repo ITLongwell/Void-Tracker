@@ -473,13 +473,21 @@ namespace VoidTracker
                 if (state != RecordState.Started)
                 {
                     activeLogging = true;
-                    SendMessage("Active Logging Enabled..");
+                    SendMessage("Active Logging Enabled...");
                 }
 
-                else SendMessage("Error: Unable to activate while logging in-progress.");
+                else
+                {
+                    SendMessage("Error: Unable to activate while logging in-progress.");
+                    ActiveLog_checkBox.Checked = false;
+                }
             }
 
-            else activeLogging = false;
+            else
+            {
+                activeLogging = false;
+                SendMessage("Active Logging Disabled..");
+            }
         }
 
         private void SecureLog_checkBox_Changed (object sender, EventArgs e)
@@ -487,13 +495,13 @@ namespace VoidTracker
             if (SecureLog_checkBox.Checked)
             {
                 secureLogging = true;
-                SendMessage("Secure Logging Enabled.");
+                SendMessage("Secure Logging Enabled...");
             }
 
             else
             {
                 secureLogging = false;
-                SendMessage("Secure Logging Disabled.");
+                SendMessage("Secure Logging Disabled...");
             }
         }
 
