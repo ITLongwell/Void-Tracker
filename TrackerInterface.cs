@@ -157,6 +157,8 @@ namespace VoidTracker
                     xml.WriteStartElement("settings_file");
                     xml.WriteAttributeString("path", directoryPath);
                     xml.WriteAttributeString("cache", xmlPath);
+                    xml.WriteAttributeString("secure", secureLogging.ToString());
+                    xml.WriteAttributeString("active", activeLogging.ToString());
                     xml.WriteEndElement();
                     xml.WriteEndDocument();
                     xml.Close();
@@ -183,6 +185,8 @@ namespace VoidTracker
                         xml.WriteStartElement("settings_file");
                         xml.WriteAttributeString("path", directoryPath);
                         xml.WriteAttributeString("cache", xmlPath);
+                        xml.WriteAttributeString("secure", secureLogging.ToString());
+                        xml.WriteAttributeString("active", activeLogging.ToString());
                         xml.WriteEndElement();
                         xml.WriteEndDocument();
                         xml.Close();
@@ -204,6 +208,15 @@ namespace VoidTracker
 
                     directoryPath = root.GetAttribute("path");
                     xmlPath = root.GetAttribute("cache");
+
+                    secureLogging = Convert.ToBoolean(root.GetAttribute("secure"));
+                    activeLogging = Convert.ToBoolean(root.GetAttribute("active"));
+
+                    if (activeLogging)
+                        ActiveLog_checkBox.Checked = true;
+
+                    if (secureLogging)
+                        SecureLog_checkBox.Checked = true;
 
                     doc.Load(xmlPath); root = doc["log_file"];
                     xmlName = FileNameEntry.Text = root.GetAttribute("Name");
