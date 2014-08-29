@@ -42,8 +42,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.TotalTimeLabel = new System.Windows.Forms.Label();
             this.Time = new System.Windows.Forms.Label();
-            this.checkBox = new System.Windows.Forms.CheckBox();
-            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
+            this.ActiveLog_checkBox = new System.Windows.Forms.CheckBox();
+            this.SecureLog_checkBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // TextDisplay
@@ -94,7 +94,7 @@
             // StopButton
             // 
             this.StopButton.BackColor = System.Drawing.Color.DarkGray;
-            this.StopButton.Location = new System.Drawing.Point(297, 224);
+            this.StopButton.Location = new System.Drawing.Point(297, 258);
             this.StopButton.Name = "StopButton";
             this.StopButton.Size = new System.Drawing.Size(75, 60);
             this.StopButton.TabIndex = 5;
@@ -105,7 +105,7 @@
             // StartButton
             // 
             this.StartButton.BackColor = System.Drawing.Color.DarkGray;
-            this.StartButton.Location = new System.Drawing.Point(12, 225);
+            this.StartButton.Location = new System.Drawing.Point(12, 259);
             this.StartButton.Name = "StartButton";
             this.StartButton.Size = new System.Drawing.Size(75, 59);
             this.StartButton.TabIndex = 6;
@@ -167,24 +167,36 @@
             this.Time.TabIndex = 12;
             this.Time.Text = "00:00:00";
             // 
-            // checkBox
+            // ActiveLog_checkBox
             // 
-            this.checkBox.AutoSize = true;
-            this.checkBox.Location = new System.Drawing.Point(15, 192);
-            this.checkBox.Name = "checkBox";
-            this.checkBox.Size = new System.Drawing.Size(102, 18);
-            this.checkBox.TabIndex = 13;
-            this.checkBox.Text = "Active Logging";
-            this.checkBox.UseVisualStyleBackColor = true;
-            this.checkBox.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
+            this.ActiveLog_checkBox.AutoSize = true;
+            this.ActiveLog_checkBox.Location = new System.Drawing.Point(13, 193);
+            this.ActiveLog_checkBox.Name = "ActiveLog_checkBox";
+            this.ActiveLog_checkBox.Size = new System.Drawing.Size(102, 18);
+            this.ActiveLog_checkBox.TabIndex = 13;
+            this.ActiveLog_checkBox.Text = "Active Logging";
+            this.ActiveLog_checkBox.UseVisualStyleBackColor = true;
+            this.ActiveLog_checkBox.CheckedChanged += new System.EventHandler(this.ActiveLog_checkBox_Changed);
+            // 
+            // SecureLog_checkBox
+            // 
+            this.SecureLog_checkBox.AutoSize = true;
+            this.SecureLog_checkBox.Location = new System.Drawing.Point(13, 217);
+            this.SecureLog_checkBox.Name = "SecureLog_checkBox";
+            this.SecureLog_checkBox.Size = new System.Drawing.Size(106, 18);
+            this.SecureLog_checkBox.TabIndex = 14;
+            this.SecureLog_checkBox.Text = "Secure Logging";
+            this.SecureLog_checkBox.UseVisualStyleBackColor = true;
+            this.SecureLog_checkBox.CheckedChanged += new System.EventHandler(this.SecureLog_checkBox_Changed);
             // 
             // TrackerInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(384, 296);
-            this.Controls.Add(this.checkBox);
+            this.ClientSize = new System.Drawing.Size(384, 329);
+            this.Controls.Add(this.SecureLog_checkBox);
+            this.Controls.Add(this.ActiveLog_checkBox);
             this.Controls.Add(this.Time);
             this.Controls.Add(this.TotalTimeLabel);
             this.Controls.Add(this.label1);
@@ -202,7 +214,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TrackerInterface";
             this.Text = "Void Tracker";
-            this.Load += new System.EventHandler(this.TrackerInterface_Load);
+            this.Load += new System.EventHandler(this.Tracker_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -223,8 +235,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label TotalTimeLabel;
         private System.Windows.Forms.Label Time;
-        private System.Windows.Forms.CheckBox checkBox;
-        private System.Windows.Forms.HelpProvider helpProvider1;
+        private System.Windows.Forms.CheckBox ActiveLog_checkBox;
+        private System.Windows.Forms.CheckBox SecureLog_checkBox;
     }
 }
 
